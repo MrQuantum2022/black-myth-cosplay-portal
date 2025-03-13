@@ -6,6 +6,7 @@ import CosplaySection from '../components/CosplaySection';
 import GallerySection from '../components/GallerySection';
 import ContactSection from '../components/ContactSection';
 import Footer from '../components/Footer';
+import ArtistSpotlight from '../components/ArtistSpotlight';
 
 const Index = () => {
   // Smooth scroll implementation
@@ -41,6 +42,7 @@ const Index = () => {
       <main>
         <HeroSection />
         <CosplaySection />
+        <ArtistSpotlight />
         <GallerySection />
         <ContactSection />
       </main>
