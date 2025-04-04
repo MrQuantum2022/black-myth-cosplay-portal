@@ -34,7 +34,7 @@ const CosplaySection = () => {
               <div className="absolute -top-6 -left-6 w-24 h-24 border-t-2 border-l-2 border-wukong-gold/30"></div>
               <div className="relative overflow-hidden rounded-sm">
                 <img 
-                  src="./lovable-uploads/363e53dc-f32d-4908-9abc-6ede6b65b3cd.png" 
+                  src="public/lovable-uploads/363e53dc-f32d-4908-9abc-6ede6b65b3cd.png" 
                   alt="Wukong Cosplay" 
                   className="w-full h-auto hover:scale-105 transition-transform duration-700 ease-in-out"
                 />
