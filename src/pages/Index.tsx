@@ -30,6 +30,9 @@ const Index = () => {
 
     document.addEventListener('click', handleAnchorClick);
     
+    // Log deployment info
+    console.log('Wukong Cosplay Portal deployed at:', new Date().toISOString());
+    
     return () => {
       document.removeEventListener('click', handleAnchorClick);
     };
