@@ -60,7 +60,7 @@ const ArtistSpotlight = () => {
           <ScrollReveal className="order-1 lg:order-2">
             <div className="relative">
               <img 
-                src="./lovable-uploads/a8df78ee-28bc-410a-a841-516e2bc59603.png" 
+                src="a8df78ee-28bc-410a-a841-516e2bc59603.png" 
                 alt="Tushar as Sun Wukong" 
                 className="w-full h-auto rounded-sm border-2 border-wukong-gold/20 image-glow"
               />
