@@ -1,4 +1,3 @@
-
 import { useState } from 'react';
 import ScrollReveal from './ui/ScrollReveal';
 import { toast } from "sonner";
@@ -20,7 +19,7 @@ const ContactSection = () => {
     e.preventDefault();
 
     try {
-      const response = await fetch("https://formspree.io/f/yourFormID", { // <-- Replace with your actual Formspree endpoint
+      const response = await fetch("https://formspree.io/f/myzenrvy", { // <-- Replace with your actual Formspree endpoint
         method: "POST",
         headers: {
           "Content-Type": "application/json"
@@ -180,10 +179,6 @@ const ContactSection = () => {
       </div>
     </section>
   );
-};
-
-export default ContactSection;
-
 };
 
 export default ContactSection;
