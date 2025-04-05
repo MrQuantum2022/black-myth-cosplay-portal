@@ -16,22 +16,38 @@ const ContactSection = () => {
     setFormData(prev => ({ ...prev, [name]: value }));
   };
 
-  const handleSubmit = (e: React.FormEvent) => {
+  const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
-    
-    // In a real application, you would send this data to your backend
-    console.log('Form submitted:', formData);
-    
-    // Show success message
-    toast.success("Your message has been sent successfully!");
-    
-    // Reset form
-    setFormData({
-      name: '',
-      email: '',
-      message: '',
-      service: 'photoshoot'
-    });
+
+    try {
+      const response = await fetch("https://formspree.io/f/yourFormID", { // <-- Replace with your actual Formspree endpoint
+        method: "POST",
+        headers: {
+          "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+          name: formData.name,
+          email: formData.email,
+          message: formData.message,
+          service: formData.service
+        })
+      });
+
+      if (response.ok) {
+        toast.success("Your message has been sent successfully!");
+        setFormData({
+          name: '',
+          email: '',
+          message: '',
+          service: 'photoshoot'
+        });
+      } else {
+        toast.error("Something went wrong. Please try again later.");
+      }
+    } catch (error) {
+      console.error("Error:", error);
+      toast.error("Network error. Please try again.");
+    }
   };
 
   const services = [
@@ -43,7 +59,6 @@ const ContactSection = () => {
 
   return (
     <section id="contact" className="bg-gradient-to-t from-black to-wukong-black section-padding relative overflow-hidden">
-      {/* Background decorative elements */}
       <div className="absolute top-0 right-1/4 w-1/3 h-1/3 bg-wukong-gold/5 rounded-full blur-3xl"></div>
       
       <div className="container mx-auto">
@@ -57,7 +72,6 @@ const ContactSection = () => {
               <p className="text-white/80 mb-8 text-lg leading-relaxed">
                 Whether you're looking for a professional photoshoot, event appearance, or custom cosplay creation, I'm here to bring the legendary Monkey King to your world.
               </p>
-              
               <div className="bg-black/30 backdrop-blur-sm border border-wukong-gold/20 p-6 rounded-sm mb-8">
                 <h3 className="text-white font-medium text-xl mb-4">Services Offered</h3>
                 <ul className="space-y-3">
@@ -79,7 +93,7 @@ const ContactSection = () => {
                   </li>
                 </ul>
               </div>
-              
+
               <div>
                 <h3 className="text-white font-medium text-xl mb-4">Location</h3>
                 <p className="text-white/80 mb-2">Based in Los Angeles, California</p>
@@ -94,7 +108,7 @@ const ContactSection = () => {
               className="bg-black/40 backdrop-blur-sm border border-wukong-gold/20 p-6 md:p-8 rounded-sm"
             >
               <h3 className="text-white font-display text-2xl mb-6">Send a Message</h3>
-              
+
               <div className="space-y-5">
                 <div>
                   <label htmlFor="name" className="block text-white/80 mb-2 text-sm">Your Name</label>
@@ -109,7 +123,7 @@ const ContactSection = () => {
                     placeholder="Enter your name"
                   />
                 </div>
-                
+
                 <div>
                   <label htmlFor="email" className="block text-white/80 mb-2 text-sm">Email Address</label>
                   <input
@@ -138,7 +152,7 @@ const ContactSection = () => {
                     ))}
                   </select>
                 </div>
-                
+
                 <div>
                   <label htmlFor="message" className="block text-white/80 mb-2 text-sm">Your Message</label>
                   <textarea
@@ -152,7 +166,7 @@ const ContactSection = () => {
                     placeholder="Tell me about your project or event"
                   ></textarea>
                 </div>
-                
+
                 <button
                   type="submit"
                   className="w-full bg-wukong-gold hover:bg-wukong-amber text-wukong-black font-medium py-3 rounded-sm transition-colors"
@@ -166,6 +180,10 @@ const ContactSection = () => {
       </div>
     </section>
   );
+};
+
+export default ContactSection;
+
 };
 
 export default ContactSection;
