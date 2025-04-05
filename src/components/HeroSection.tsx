@@ -27,7 +27,7 @@ const HeroSection = () => {
       <div 
         className="absolute inset-0 h-[110%] w-full bg-cover bg-center hero-mask"
         style={{ 
-          backgroundImage: "url('/lovable-uploads/d79f3f73-d06e-49bd-a294-644f95f32088.png')",
+          backgroundImage: "url('./lovable-uploads/d79f3f73-d06e-49bd-a294-644f95f32088.png')",
           transform: `translateY(${offset}px)`,
           backgroundSize: "cover",
           backgroundPosition: "center",

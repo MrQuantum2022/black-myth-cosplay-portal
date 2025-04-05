@@ -1,3 +1,4 @@
+
 name: Deploy to GitHub Pages
 
 on:
@@ -26,6 +27,10 @@ jobs:
 
       - name: Build
         run: npm run build
+        
+      - name: Copy Public Assets
+        run: |
+          cp -r public/* dist/
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4

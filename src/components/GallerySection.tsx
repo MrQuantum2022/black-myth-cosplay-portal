@@ -17,53 +17,53 @@ const GallerySection = () => {
   const images = [
     // Original images
     {
-      src: "/lovable-uploads/a4c5e03b-d6d0-4d26-98e2-337c28f01ab4.png",
+      src: "./lovable-uploads/a4c5e03b-d6d0-4d26-98e2-337c28f01ab4.png",
       alt: "Wukong Cosplay Portrait",
       caption: "Character portrayal with authentic facial features and expressions"
     },
     {
-      src: "/lovable-uploads/6a38616e-7721-4d74-8d03-0a6681330d32.png",
+      src: "./lovable-uploads/6a38616e-7721-4d74-8d03-0a6681330d32.png",
       alt: "Wukong Silhouette",
       caption: "Dramatic silhouette against sunset highlighting the iconic staff"
     },
     {
-      src: "/lovable-uploads/215804df-33e7-40e5-8748-0449bfc8a328.png",
+      src: "./lovable-uploads/215804df-33e7-40e5-8748-0449bfc8a328.png",
       alt: "Wukong Studio Portrait",
       caption: "Detailed armor craftsmanship with intricate golden embellishments"
     },
     {
-      src: "/lovable-uploads/f531e1cc-fcdc-471b-a8b9-dc399381c41a.png",
+      src: "./lovable-uploads/f531e1cc-fcdc-471b-a8b9-dc399381c41a.png",
       alt: "Wukong Sunset Pose",
       caption: "Atmospheric composition showcasing the mythical presence"
     },
     // New images
     {
-      src: "/lovable-uploads/ea812af6-a8b6-4e2b-915c-065e49f5a65b.png",
+      src: "./lovable-uploads/ea812af6-a8b6-4e2b-915c-065e49f5a65b.png",
       alt: "Wukong Stage Performance",
       caption: "Live stage performance showcasing the iconic golden armor and staff"
     },
     {
-      src: "/lovable-uploads/cf34d99a-cd1c-4c9d-a127-de5c8fc4aa05.png",
+      src: "./lovable-uploads/cf34d99a-cd1c-4c9d-a127-de5c8fc4aa05.png",
       alt: "Wukong Colorful Background",
       caption: "Vibrant backdrop highlighting the traditional banners and ornate costume details"
     },
     {
-      src: "/lovable-uploads/3fc3d3b3-e98f-4fab-8f1c-d7638de3cb94.png",
+      src: "./lovable-uploads/3fc3d3b3-e98f-4fab-8f1c-d7638de3cb94.png",
       alt: "Wukong Dramatic Lighting",
       caption: "Dramatic red lighting accentuating the intricate armor design"
     },
     {
-      src: "/lovable-uploads/a8df78ee-28bc-410a-a841-516e2bc59603.png",
+      src: "./lovable-uploads/a8df78ee-28bc-410a-a841-516e2bc59603.png",
       alt: "Tushar as Wukong",
       caption: "Tushar's award-winning Wukong cosplay at Comic Con"
     },
     {
-      src: "/lovable-uploads/ae4537a3-4c02-4681-8f96-ce070920ecd8.png",
+      src: "./lovable-uploads/ae4537a3-4c02-4681-8f96-ce070920ecd8.png",
       alt: "Wukong Performance Pose",
       caption: "Action pose demonstrating the dynamic nature of the character"
     },
     {
-      src: "/lovable-uploads/5300c192-5c63-4c12-bf98-c5a7d697880f.png",
+      src: "./lovable-uploads/5300c192-5c63-4c12-bf98-c5a7d697880f.png",
       alt: "Wukong Outdoor Portrait",
       caption: "Outdoor portrait featuring the detailed headpiece with peacock feathers"
     }
