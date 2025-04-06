@@ -31,11 +31,11 @@ const ArtistSpotlight = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex gap-3">
                   <span className="text-wukong-gold">•</span>
-                  <p className="text-white/80">Comic Con competitor for Best VFX Character Cosplay</p>
+                  <p className="text-white/80">Comic Con Champion for Best Game Character Cosplay</p>
                 </div>
                 <div className="flex gap-3">
                   <span className="text-wukong-gold">•</span>
-                  <p className="text-white/80">Featured in multiple gaming conventions e.g.IGS</p>
+                  <p className="text-white/80">Featured in multiple gaming conventions across the country</p>
                 </div>
                 <div className="flex gap-3">
                   <span className="text-wukong-gold">•</span>
@@ -74,19 +74,19 @@ const ArtistSpotlight = () => {
         <ScrollReveal delay={0.3}>
           <div className="mt-20 flex flex-wrap gap-4 justify-center">
             <div className="flex flex-col items-center p-6 bg-wukong-black/40 backdrop-blur-sm border border-wukong-gold/10 rounded-sm min-w-[180px]">
-              <span className="text-3xl font-display text-wukong-gold mb-2">3+</span>
+              <span className="text-3xl font-display text-wukong-gold mb-2">12+</span>
               <p className="text-white/70 text-center text-sm">Convention Appearances</p>
             </div>
             <div className="flex flex-col items-center p-6 bg-wukong-black/40 backdrop-blur-sm border border-wukong-gold/10 rounded-sm min-w-[180px]">
-              <span className="text-3xl font-display text-wukong-gold mb-2">1500+</span>
+              <span className="text-3xl font-display text-wukong-gold mb-2">300+</span>
               <p className="text-white/70 text-center text-sm">Hours of Crafting</p>
             </div>
             <div className="flex flex-col items-center p-6 bg-wukong-black/40 backdrop-blur-sm border border-wukong-gold/10 rounded-sm min-w-[180px]">
-              <span className="text-3xl font-display text-wukong-gold mb-2">2</span>
+              <span className="text-3xl font-display text-wukong-gold mb-2">5</span>
               <p className="text-white/70 text-center text-sm">Major Awards</p>
             </div>
             <div className="flex flex-col items-center p-6 bg-wukong-black/40 backdrop-blur-sm border border-wukong-gold/10 rounded-sm min-w-[180px]">
-              <span className="text-3xl font-display text-wukong-gold mb-2">250+</span>
+              <span className="text-3xl font-display text-wukong-gold mb-2">8K+</span>
               <p className="text-white/70 text-center text-sm">Social Media Followers</p>
             </div>
           </div>

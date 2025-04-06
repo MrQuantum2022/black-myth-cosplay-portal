@@ -95,8 +95,8 @@ const ContactSection = () => {
 
               <div>
                 <h3 className="text-white font-medium text-xl mb-4">Location</h3>
-                <p className="text-white/80 mb-2">Based in Shiv Vihar, Delhi NCR</p>
-                <p className="text-white/80">Available for travel for major events</p>
+                <p className="text-white/80 mb-2">Based in Los Angeles, California</p>
+                <p className="text-white/80">Available for travel worldwide</p>
               </div>
             </div>
           </ScrollReveal>

@@ -22,9 +22,19 @@ const GallerySection = () => {
       caption: "Character portrayal with authentic facial features and expressions"
     },
     {
+      src: "./lovable-uploads/6a38616e-7721-4d74-8d03-0a6681330d32.png",
+      alt: "Wukong Silhouette",
+      caption: "Dramatic silhouette against sunset highlighting the iconic staff"
+    },
+    {
       src: "./lovable-uploads/215804df-33e7-40e5-8748-0449bfc8a328.png",
       alt: "Wukong Studio Portrait",
       caption: "Detailed armor craftsmanship with intricate golden embellishments"
+    },
+    {
+      src: "./lovable-uploads/f531e1cc-fcdc-471b-a8b9-dc399381c41a.png",
+      alt: "Wukong Sunset Pose",
+      caption: "Atmospheric composition showcasing the mythical presence"
     },
     // New images
     {
@@ -45,7 +55,7 @@ const GallerySection = () => {
     {
       src: "./lovable-uploads/a8df78ee-28bc-410a-a841-516e2bc59603.png",
       alt: "Tushar as Wukong",
-      caption: "Tushar's Wukong cosplay at Comic Con"
+      caption: "Tushar's award-winning Wukong cosplay at Comic Con"
     },
     {
       src: "./lovable-uploads/ae4537a3-4c02-4681-8f96-ce070920ecd8.png",
