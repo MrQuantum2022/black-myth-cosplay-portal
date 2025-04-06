@@ -39,7 +39,7 @@ const HeroSection = () => {
       {/* Main content */}
       <div className="relative z-10 container mx-auto px-6 text-center flex flex-col items-center">
         <span className="text-wukong-gold tracking-widest text-sm md:text-base uppercase font-medium mb-4 animate-fade-in-up opacity-0" style={{ animationDelay: '0.3s' }}>
-          The Legend Reborn
+          Tushar aka digitally__artistic_
         </span>
         
         <h1 className="text-5xl md:text-7xl lg:text-8xl font-display font-bold text-white mb-6 opacity-0 animate-fade-in-up" style={{ animationDelay: '0.5s' }}>
