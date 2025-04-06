@@ -31,11 +31,11 @@ const ArtistSpotlight = () => {
               <div className="space-y-4 mb-8">
                 <div className="flex gap-3">
                   <span className="text-wukong-gold">•</span>
-                  <p className="text-white/80">Comic Con Champion for Best Game Character Cosplay</p>
+                  <p className="text-white/80">Comic Con competitor for Best vfx Character Cosplay</p>
                 </div>
                 <div className="flex gap-3">
                   <span className="text-wukong-gold">•</span>
-                  <p className="text-white/80">Featured in multiple gaming conventions across the country</p>
+                  <p className="text-white/80">Featured in multiple gaming conventions e.g IGS</p>
                 </div>
                 <div className="flex gap-3">
                   <span className="text-wukong-gold">•</span>

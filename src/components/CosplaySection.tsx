@@ -50,7 +50,7 @@ const CosplaySection = () => {
                 Master <span className="text-wukong-gold text-glow">Cosplay</span> Craftsmanship
               </h2>
               <p className="text-white/80 mb-8 text-lg leading-relaxed">
-                With over a decade of experience in character design and cosplay artistry, I bring the iconic Monkey King from Black Myth: Wukong to life through intricate costume creation, authentic prop replication, and complete character embodiment. Each element is meticulously handcrafted to capture the essence of this legendary figure.
+                With over 3 years of experience in character design and cosplay artistry, I bring the iconic Monkey King from Black Myth: Wukong to life through intricate costume creation, authentic prop replication, and complete character embodiment. Each element is meticulously handcrafted to capture the essence of this legendary figure.
               </p>
             </ScrollReveal>
 

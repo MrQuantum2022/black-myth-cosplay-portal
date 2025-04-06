@@ -55,7 +55,7 @@ const GallerySection = () => {
     {
       src: "./lovable-uploads/a8df78ee-28bc-410a-a841-516e2bc59603.png",
       alt: "Tushar as Wukong",
-      caption: "Tushar's award-winning Wukong cosplay at Comic Con"
+      caption: "Tushar's Wukong cosplay at Comic Con"
     },
     {
       src: "./lovable-uploads/ae4537a3-4c02-4681-8f96-ce070920ecd8.png",
